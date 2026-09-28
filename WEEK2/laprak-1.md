@@ -99,13 +99,11 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-https://github.com/kanzi123-capt/109082500214_hilmankanzi/blob/main/WEEK2/ss-unguided1.png
+![Screenshot Output Unguided 1_1](ss-unguided1.png)
 
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](ss-unguided11.png)
 
 penjelasan unguided 1 
 
