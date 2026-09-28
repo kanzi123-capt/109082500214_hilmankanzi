@@ -2,9 +2,7 @@
 <p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+pemrograman c++ itu sangat mudah[1]
 
 ### A. ...<br/>
 ...
@@ -20,17 +18,43 @@ Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk str
 
 ## Guided 
 
-### 1. ...
+### 1. guided 1
 
 ```C++
-source code guided 1
+#include <iostream>
+using namespace std;
+int main () {
+    cout<<"ijja penguk rung"<<endl;
+    return 0;
+}
 ```
-penjelasan singkat guided 1
+code ini menjelaskan cara menampilakan nama memakai cout
 
-### 2. ...
+### 2. guided 2
 
 ```C++
-source code guided 2
+#include <iostream>
+using namespace std;
+int main() {
+    int bilangan1, bilangan2;
+
+    cout << "Masukkan bilangan pertama: ";
+    cin >> bilangan1;
+    cout << "Masukkan bilangan kedua: ";
+    cin >> bilangan2;
+
+    cout << "Penjumlahan: " << bilangan1 + bilangan2 << endl;
+    cout << "Pengurangan: " << bilangan1 - bilangan2 << endl;
+    cout << "Perkalian: " << bilangan1 * bilangan2 << endl;
+
+    if (bilangan2 != 0) {
+        cout << "Pembagian: " << static_cast<double>(bilangan1) / bilangan2 << endl;
+    } else {
+        cout << "Pembagian: tidak dapat dilakukan karena pembagi bernilai nol" << endl;
+    }
+
+    return 0;
+}
 ```
 penjelasan singkat guided 2
 
@@ -46,7 +70,31 @@ penjelasan singkat guided 3
 ### 1. (isi dengan soal unguided 1)
 
 ```C++
-source code unguided 1
+#include <iostream>
+using namespace std;
+
+int main() {
+    float a, b;
+
+    cout << "Masukkan bilangan pertama: ";
+    cin >> a;
+
+    cout << "Masukkan bilangan kedua: ";
+    cin >> b;
+
+    cout << "\nHasil operasi:" << endl;
+    cout << "Penjumlahan = " << a + b << endl;
+    cout << "Pengurangan = " << a - b << endl;
+    cout << "Perkalian   = " << a * b << endl;
+
+    if (b != 0) {
+        cout << "Pembagian   = " << a / b << endl;
+    } else {
+        cout << "Pembagian   = tidak dapat dilakukan (dibagi 0)" << endl;
+    }
+
+    return 0;
+}
 ```
 ### Output Unguided 1 :
 
