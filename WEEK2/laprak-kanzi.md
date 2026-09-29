@@ -1,21 +1,12 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+<p align="center">Hilman Kanzi - 109082500214</p>
 
 ## Dasar Teori
-pemrograman c++ itu sangat mudah[1]
+Bahasa C++ merupakan bahasa pemrograman yang digunakan untuk mengolah data dengan variabel, tipe data, operator, input, dan output. Operator aritmatika digunakan untuk melakukan perhitungan seperti penjumlahan, pengurangan, perkalian, dan pembagian. Selain itu, percabangan if digunakan untuk menentukan proses berdasarkan kondisi tertentu. Pada Unguided 1, konsep tersebut digunakan untuk mengolah dua bilangan dan menampilkan hasil perhitungannya.[1]
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+Array digunakan untuk menyimpan beberapa data dengan tipe yang sama dan setiap datanya dapat diakses menggunakan indeks. String digunakan untuk menyimpan atau mengolah data berupa teks. Pada Unguided 2, array string digunakan untuk menyimpan nama bilangan, kemudian fungsi terbilang() digunakan untuk mengubah angka menjadi bentuk tulisan.[1]
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
+Perulangan for digunakan untuk menjalankan perintah secara berulang. Pada Unguided 3, perulangan digunakan untuk membuat pola angka, mengatur spasi, serta menampilkan angka dari besar ke kecil dan sebaliknya. Penggunaan percabangan, array, fungsi, dan perulangan membantu program berjalan sesuai dengan proses yang telah dibuat.[1]
 
 ## Unguided 
 
@@ -57,7 +48,9 @@ int main() {
 ##### Output 2
 ![Screenshot Output Unguided 1_2](ss-unguided11.png)
 
-penjelasan unguided 1 
+Program ini digunakan untuk melakukan operasi aritmatika pada dua bilangan. Variabel a dan b menggunakan tipe data float agar dapat menyimpan bilangan desimal. Perintah cin digunakan untuk memasukkan nilai dari pengguna, sedangkan cout digunakan untuk menampilkan hasil program. Setelah kedua nilai dimasukkan, program melakukan operasi penjumlahan, pengurangan, dan perkalian menggunakan operator aritmatika.
+
+Pada bagian if (b != 0), program mengecek terlebih dahulu apakah bilangan kedua bukan nol. Jika b tidak sama dengan nol, maka pembagian dilakukan menggunakan a / b. Jika b bernilai nol, program tidak melakukan pembagian dan menampilkan keterangan bahwa pembagian tidak dapat dilakukan. Jadi, program ini menerapkan variabel, input-output, operator aritmatika, dan percabangan if sesuai dengan konsep dasar pemrograman C++.
 
 ### 2. unguided 2
 
@@ -107,8 +100,9 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 2_1](ss-unguided2.png)
 
+Program ini digunakan untuk mengubah angka menjadi bentuk tulisan dari 0 sampai 100. Array angka digunakan untuk menyimpan nama-nama bilangan dalam bentuk string, seperti "nol", "satu", "dua", dan seterusnya. Kemudian fungsi terbilang(int n) digunakan untuk mengolah angka yang dimasukkan. Jika angka kurang dari 20, program langsung mengambil kata dari array. Jika angka kurang dari 100, program menggabungkan angka puluhan dengan kata "puluh" dan angka satuannya.
 
-penjelasan unguided 2
+Pada bagian main(), variabel n digunakan untuk menyimpan angka yang dimasukkan melalui cin, sedangkan cout digunakan untuk menampilkan hasilnya. Program juga menggunakan percabangan if untuk memastikan angka yang dimasukkan berada pada rentang 0 sampai 100. Jadi, program ini menerapkan array, string, fungsi, input-output, dan percabangan if sesuai dengan materi C++ pada modul.
 
 ### 3. unguided 3
 
@@ -155,13 +149,14 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 3_1](ss-unguided3.png)
 
+Program ini digunakan untuk membuat pola angka dan tanda bintang berdasarkan angka yang dimasukkan. Variabel n digunakan untuk menyimpan input dari pengguna, sedangkan cin digunakan untuk memasukkan nilai dan cout untuk menampilkan hasil. Perulangan for pertama digunakan untuk mengatur jumlah baris, sedangkan perulangan for kedua digunakan untuk memberikan spasi di awal setiap baris.
 
-penjelasan unguided 3
+Setelah itu, perulangan for berikutnya digunakan untuk menampilkan angka secara menurun, kemudian program menampilkan tanda *, dan perulangan terakhir menampilkan angka secara menaik. Setiap baris diakhiri dengan endl agar pola berpindah ke baris berikutnya. Jadi, program ini menerapkan input-output dan perulangan for untuk membuat pola sesuai dengan konsep perulangan pada pemrograman C++.
 
 ## Kesimpulan
-...
+bahasa C++ dapat digunakan untuk membuat program dengan memanfaatkan variabel, tipe data, input-output, operator, percabangan, array, string, fungsi, dan perulangan. Pada praktikum ini, konsep tersebut diterapkan melalui program operasi aritmatika, mengubah angka menjadi tulisan, serta membuat pola angka dan tanda bintang.
+
+Dari ketiga program tersebut, dapat dipahami bahwa setiap konsep dalam C++ memiliki fungsi yang berbeda dan dapat digunakan secara bersama-sama untuk menyelesaikan suatu permasalahan. Praktikum ini juga membantu memahami cara kerja dasar program C++ mulai dari menerima input, mengolah data, sampai menampilkan output sesuai dengan proses yang dibuat.
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1]Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
