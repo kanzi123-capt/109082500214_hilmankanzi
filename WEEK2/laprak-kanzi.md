@@ -48,6 +48,8 @@ int main() {
 ##### Output 2
 ![Screenshot Output Unguided 1_2](ss-unguided11.png)
 
+Penjelasan :
+
 Program ini digunakan untuk melakukan operasi aritmatika pada dua bilangan. Variabel a dan b menggunakan tipe data float agar dapat menyimpan bilangan desimal. Perintah cin digunakan untuk memasukkan nilai dari pengguna, sedangkan cout digunakan untuk menampilkan hasil program. Setelah kedua nilai dimasukkan, program melakukan operasi penjumlahan, pengurangan, dan perkalian menggunakan operator aritmatika.
 
 Pada bagian if (b != 0), program mengecek terlebih dahulu apakah bilangan kedua bukan nol. Jika b tidak sama dengan nol, maka pembagian dilakukan menggunakan a / b. Jika b bernilai nol, program tidak melakukan pembagian dan menampilkan keterangan bahwa pembagian tidak dapat dilakukan. Jadi, program ini menerapkan variabel, input-output, operator aritmatika, dan percabangan if sesuai dengan konsep dasar pemrograman C++.
@@ -100,6 +102,8 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 2_1](ss-unguided2.png)
 
+Penjelasan :
+
 Program ini digunakan untuk mengubah angka menjadi bentuk tulisan dari 0 sampai 100. Array angka digunakan untuk menyimpan nama-nama bilangan dalam bentuk string, seperti "nol", "satu", "dua", dan seterusnya. Kemudian fungsi terbilang(int n) digunakan untuk mengolah angka yang dimasukkan. Jika angka kurang dari 20, program langsung mengambil kata dari array. Jika angka kurang dari 100, program menggabungkan angka puluhan dengan kata "puluh" dan angka satuannya.
 
 Pada bagian main(), variabel n digunakan untuk menyimpan angka yang dimasukkan melalui cin, sedangkan cout digunakan untuk menampilkan hasilnya. Program juga menggunakan percabangan if untuk memastikan angka yang dimasukkan berada pada rentang 0 sampai 100. Jadi, program ini menerapkan array, string, fungsi, input-output, dan percabangan if sesuai dengan materi C++ pada modul.
@@ -148,6 +152,8 @@ int main() {
 
 ##### Output 1
 ![Screenshot Output Unguided 3_1](ss-unguided3.png)
+
+Penjelasan :
 
 Program ini digunakan untuk membuat pola angka dan tanda bintang berdasarkan angka yang dimasukkan. Variabel n digunakan untuk menyimpan input dari pengguna, sedangkan cin digunakan untuk memasukkan nilai dan cout untuk menampilkan hasil. Perulangan for pertama digunakan untuk mengatur jumlah baris, sedangkan perulangan for kedua digunakan untuk memberikan spasi di awal setiap baris.
 
