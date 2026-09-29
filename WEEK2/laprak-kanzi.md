@@ -19,7 +19,7 @@ pemrograman c++ itu sangat mudah[1]
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. unguided 1
 
 ```C++
 #include <iostream>
@@ -59,35 +59,102 @@ int main() {
 
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+### 2. unguided 2
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+
+string angka[] = {
+    "nol", "satu", "dua", "tiga", "empat",
+    "lima", "enam", "tujuh", "delapan", "sembilan",
+    "sepuluh", "sebelas", "dua belas", "tiga belas",
+    "empat belas", "lima belas", "enam belas",
+    "tujuh belas", "delapan belas", "sembilan belas"
+};
+
+string terbilang(int n) {
+    if (n < 20) {
+        return angka[n];
+    }
+    else if (n < 100) {
+        return angka[n / 10] + " puluh " + 
+               (n % 10 == 0 ? "" : angka[n % 10]);
+    }
+    else {
+        return "seratus";
+    }
+}
+
+int main() {
+    int n;
+
+    cout << "Masukkan angka (0-100): ";
+    cin >> n;
+
+    if (n >= 0 && n <= 100) {
+        cout << n << " : " << terbilang(n) << endl;
+    } 
+    else {
+        cout << "Input harus antara 0 sampai 100." << endl;
+    }
+
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](ss-unguided2.png)
 
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+### 3. unguided 3
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "input: ";
+    cin >> n;
+
+    cout << "output:\n";
+
+    for (int i = n; i >= 1; i--) {
+
+        // Spasi di awal baris
+        for (int s = n; s > i; s--) {
+            cout << "  ";
+        }
+
+        // Angka menurun
+        for (int j = i; j >= 1; j--) {
+            cout << j << " ";
+        }
+
+        // Bintang
+        cout << "*";
+
+        // Angka menaik
+        for (int j = 1; j <= i; j++) {
+            cout << " " << j;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
 ```
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](ss-unguided3.png)
 
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 3
 
