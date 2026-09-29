@@ -16,54 +16,6 @@ pemrograman c++ itu sangat mudah[1]
 #### 2. ...
 #### 3. ...
 
-## Guided 
-
-### 1. guided 1
-
-```C++
-#include <iostream>
-using namespace std;
-int main () {
-    cout<<"ijja penguk rung"<<endl;
-    return 0;
-}
-```
-code ini menjelaskan cara menampilakan nama memakai cout
-
-### 2. guided 2
-
-```C++
-#include <iostream>
-using namespace std;
-int main() {
-    int bilangan1, bilangan2;
-
-    cout << "Masukkan bilangan pertama: ";
-    cin >> bilangan1;
-    cout << "Masukkan bilangan kedua: ";
-    cin >> bilangan2;
-
-    cout << "Penjumlahan: " << bilangan1 + bilangan2 << endl;
-    cout << "Pengurangan: " << bilangan1 - bilangan2 << endl;
-    cout << "Perkalian: " << bilangan1 * bilangan2 << endl;
-
-    if (bilangan2 != 0) {
-        cout << "Pembagian: " << static_cast<double>(bilangan1) / bilangan2 << endl;
-    } else {
-        cout << "Pembagian: tidak dapat dilakukan karena pembagi bernilai nol" << endl;
-    }
-
-    return 0;
-}
-```
-penjelasan singkat guided 2
-
-### 3. ...
-
-```C++
-source code guided 3
-```
-penjelasan singkat guided 3
 
 ## Unguided 
 
@@ -117,8 +69,6 @@ source code unguided 2
 ##### Output 1
 ![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
@@ -135,8 +85,6 @@ source code unguided 3
 ##### Output 1
 ![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
