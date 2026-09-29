@@ -4,13 +4,13 @@ using namespace std;
 int main() {
     float a, b;
 
-    cout << "Masukkan bilangan pertama: ";
+    cout << "Masukkan bilangan pertama : ";
     cin >> a;
 
-    cout << "Masukkan bilangan kedua: ";
+    cout << "Masukkan bilangan kedua   : ";
     cin >> b;
 
-    cout << "\nHasil operasi:" << endl;
+    cout << "\nHasil operasi:\n";
     cout << "Penjumlahan = " << a + b << endl;
     cout << "Pengurangan = " << a - b << endl;
     cout << "Perkalian   = " << a * b << endl;
@@ -18,7 +18,7 @@ int main() {
     if (b != 0) {
         cout << "Pembagian   = " << a / b << endl;
     } else {
-        cout << "Pembagian   = tidak dapat dilakukan (dibagi 0)" << endl;
+        cout << "Pembagian   = Tidak dapat dibagi dengan 0" << endl;
     }
 
     return 0;
