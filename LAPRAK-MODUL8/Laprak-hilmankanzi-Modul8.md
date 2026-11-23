@@ -933,8 +933,6 @@ Pada tahap terakhir, program mencoba memasukkan angka 8. Namun, karena Queue sud
 Pengujian ini membuktikan bahwa Circular Queue dapat menggunakan kembali indeks yang sebelumnya telah dikosongkan melalui operasi Dequeue. Mekanisme tersebut membuat pengelolaan ruang array menjadi lebih efisien dibandingkan Alternatif 1 dan Alternatif 2.
 
 ## Kesimpulan
-## Kesimpulan
-
 Berdasarkan praktikum Modul 8 tentang Queue yang telah dilakukan, dapat disimpulkan bahwa Queue merupakan struktur data linear yang menggunakan prinsip FIFO (*First In First Out*), yaitu data yang pertama kali dimasukkan akan menjadi data pertama yang dikeluarkan. Dalam pengimplementasiannya, Queue memiliki dua operasi utama, yaitu Enqueue untuk menambahkan elemen dan Dequeue untuk menghapus elemen.
 
 Pada kegiatan Guided, Queue berhasil diimplementasikan menggunakan Linked List dengan memanfaatkan pointer Head dan Tail. Selain operasi penambahan dan penghapusan, program juga berhasil menerapkan fungsi pencarian elemen, pemeriksaan alamat node, penghitungan jumlah elemen, serta penghapusan seluruh data yang tersimpan.
